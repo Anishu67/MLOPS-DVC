@@ -1,2 +1,8 @@
 CREATE A GIT REPPO AND CLONE IT IN LOCAL
-create a code.py and code to it. (it will save a csv file to a new "data" folder)
+create a mycode.py and code to it. (it will save a csv file to a new "data" folder)
+do a git add commit push before initislizing dvc
+pip install dvc
+now do dvc init (create,.dvcignore), .dvc
+now do mkdir S3 (creates new s3 directory)
+Now we do dvc remote add -d myremote s3
+next "dvc add data/'
